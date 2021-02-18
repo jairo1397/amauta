@@ -22,7 +22,8 @@ const APP_ROUTES: Routes = [
     { path: 'buscar/:termino', component: BuscadorComponent },
     { path: 'usuario', component: UsuarioComponent },
     { path: 'registro', component: ResgistroComponent },
-    { path: '**', pathMatch: 'full', redirectTo: 'Inicio' }
+    { path: ' ', pathMatch: 'full', redirectTo: 'inicio'},
+    { path: '**', pathMatch: 'full', redirectTo: 'inicio'},
 ];
 
 export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES);
