@@ -124,12 +124,7 @@ li.timeline-item::before {
 *
 */
 
-.background {
-    background: #4e4e4e;
-    background: -webkit-linear-gradient(to right, #666666, #202227);
-    background-color: #ffffff;
-    min-height: 100vh;
-}
+
 
 h4,
 .display-4 {
